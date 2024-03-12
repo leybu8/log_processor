@@ -1,0 +1,6 @@
+timestamp,log_level,log_message,client_ip,user,timestamp,request_method,request_path,request_protocol,response_code,response_size
+2023-04-01 12:34:56,INFO,"127.0.0.1 - user1 [01/Apr/2023:12:34:56 +0000] GET /products HTTP/1.1"" 200 1234""",,,,,,,,
+2023-04-01 12:35:12,WARNING,"192.168.1.100 - user2 [01/Apr/2023:12:35:12 +0000] POST /cart HTTP/1.1"" 400 567 - Product not found""",,,,,,,,
+2023-04-01 12:35:22,ERROR,"192.168.1.100 - user2 [01/Apr/2023:12:35:22 +0000] POST /checkout HTTP/1.1"" 500 890 - Internal Server Error""",,,,,,,,
+2023-04-01 12:36:01,INFO,"127.0.0.1 - user1 [01/Apr/2023:12:36:01 +0000] GET /products HTTP/1.1"" 200 1234""",,,,,,,,
+2023-04-01 12:36:15,INFO,"192.168.1.100 - user2 [01/Apr/2023:12:36:15 +0000] GET /cart HTTP/1.1"" 200 678""",,,,,,,,
